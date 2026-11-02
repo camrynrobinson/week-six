@@ -36,3 +36,32 @@ wtf is a cramer's v OH its just statistical significance. its just a (p) value. 
 point pattern analysis--> yay environmental science!!!!!!!!!!
     - intersite comparisons to visualize a broader network of relations 
 
+-----
+
+R Archaeostats Activity
+
+- data doesnt tell a story but it is something from which a story can be told; the distinction is small but immensely significant
+
+
+View(DartPoints) notice that View starts with a capital V. Lower-case 'view' will give you an error. case matters for command function!!
+
+mean(DartPoints$Length) = 49.3307692307692
+summary(DartPoints$Length) =
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  30.60   40.85   47.10   49.33   55.80  109.50
+
+options(digits=3)
+numSummary(DartPoints[, 5:11])
+
+'column 1-4' where 1=5; 4=8
+  options(digits=3)
+numSummary(DartPoints[, 5:8])
+
+remember to add View() command to actually see the data
+data(EngrBone)
+View(EngrBone)
+
+
+
+
+
