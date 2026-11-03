@@ -45,21 +45,21 @@ R Archaeostats Activity
 
 View(DartPoints) notice that View starts with a capital V. Lower-case 'view' will give you an error. case matters for command function!!
 
-mean(DartPoints$Length) = 49.3307692307692
-summary(DartPoints$Length) =
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  30.60   40.85   47.10   49.33   55.80  109.50
+`mean(DartPoints$Length) 
+summary(DartPoints$Length)`
 
 options(digits=3)
-numSummary(DartPoints[, 5:11])
+`numSummary(DartPoints[, 5:11])`
 
 'column 1-4' where 1=5; 4=8
   options(digits=3)
-numSummary(DartPoints[, 5:8])
+`numSummary(DartPoints[, 5:8])`
 
 remember to add View() command to actually see the data
-data(EngrBone)
-View(EngrBone)
+
+`data(EngrBone)
+View(EngrBone)`
+
 
 
 
