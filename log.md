@@ -60,6 +60,23 @@ remember to add View() command to actually see the data
 `data(EngrBone)
 View(EngrBone)`
 
+for this activity everything is inside (archdata) so i don't have to use the data(name) command every time?
+
+'(MESO_Type <- table(Axes$Microliths)) 
+barplot(MESO_Type, main="mesolithic", xlab="microliths", ylab="axes")'
+
+> Error: object 'Axes' not found
+Traceback:
+.handleSimpleError(function (cnd) 
+ . {
+ .     watcher$capture_plot_and_output()
+ .     cnd <- sanitize_call(cnd)
+ .     watcher$push(cnd)
+ .     switch(on_error, continue = invokeRestart("eval_continue"), 
+ .         stop = invokeRestart("eval_stop"), error = NULL)
+ . }, "object 'Axes' not found", base::quote(eval(expr, envir)))
+
+
 
 
 
